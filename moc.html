@@ -1,0 +1,244 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+<title>AmazeElectronic</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  margin: 6;
+
+  background-color: #968E8E;
+}
+
+ #header {
+           background-color:gray;
+           padding-right: 500px;
+           text-align: center;
+                    
+      }
+
+a{
+    color:white;
+    text-align:right;
+    padding: 20px;
+
+}
+#Telephones {
+    float: left;
+    width:20%;
+    padding: 15px;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    #Telephones {
+        width: 100%;
+    }
+}
+
+
+#Televisions {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    #Televisions {
+        width: 100%;
+    }
+}
+
+#Headphones {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    #Headphones {
+        width: 100%;
+    }
+}
+
+#Applications {
+    float: left;
+    width: 20%;
+    padding: 15px;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    #Applications {
+        width: 100%;
+    }
+}
+.box{
+    width: 100%;
+}
+
+#search { 
+
+    margin-left: 550px;
+    display: inline-block;
+}
+
+
+#img {
+    float: left;
+    width:30%;
+    padding-bottom:15px;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    #img {
+        width: 100%;
+    }
+}
+
+
+#form {
+    background-color: gray;
+
+    float: right;
+    height: 325px;
+    width:600px;
+    padding:300px ,650px;
+
+}
+
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+    #form {
+        width: 100%;
+    }
+}
+
+
+
+#footer{
+  background-color: gray;
+ text-align:center;
+ margin-top: 412px;
+}
+#im{
+  margin: 20px;
+
+}
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+        <img src="amazed.jpg" alt="Logo" width="200px";height="200px";padding="1290px">
+        <a href="#">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Servises</a>
+        <a href="#">Portfolio</a>
+    </div>
+  
+
+
+<div id="row">
+<h3 align="center">We sell our product online and offline</h3>
+ <div class="box">
+        <input type="search" id="search" placeholder="Search" />
+        </div>
+  <div id="Telephones">
+  <img src="phone.png "height="70px"; width="50px ">
+
+    <h2>Telephones</h2>
+    <p>Any type of<br>telephone are<br>here</p>
+  </div>
+  <div id="Televisions">
+    <img src="tv.jpg "height="70px"; width="80px ">
+
+    <h2>Televisions</h2>
+    <p>Digital TV and Analog <br>TV</p>
+  </div>
+  <div id="Headphones">
+    <img src="hs.jpeg "height="70px"; width="50px ">
+
+    <h2>Headphones</h2>
+    <p>Any type of headdsets<br>come and buy</p>
+  </div>
+  <div id="Applications">
+    <img src="android.png "height="70px"; width="50px ">
+
+    <h2>Applications</h2>
+    <p>Our application are:<br>Window application, and<br>Andoid Application</p>
+  </div>
+</div>
+<div id="img">
+<img src="b1.gif" height="450px" width="739x">
+</div>
+<div id="form">
+
+<form action="" method="POST" enctype="application/x-www-form-urlencoded">
+                  <label for="Names">Names</label>
+                  <input type="text" id="Names" placeholder="Enter your Names" autocomplete="on" padding-left="12px" required><br><br>
+                 
+                  
+                  <label for="Products">Products</label>
+                  <select>
+                      <option value="Television">Television</option>
+                      <option value="Telephone">Telephone</option>
+                      <option value="Headset">Headset</option>
+                      <option value="Application">Application</option>
+                  </select><br><br>
+                  <label for="color">Select color</label>
+                  <input type="color" name="favcolor"><br><br>
+                  <label for="Email">Email</label><input type="email" name="email" placeholder="Email" autocomplete="off" required><br>
+                  <input type="submit">
+
+</form>
+</div>
+</body><br><br>
+<div id="footer">
+<footer><hr>
+<div id="im">
+  <img src="facebook.jpeg"height="50" width="50">
+  <img src="wtp.png"height="50px" width="50px">
+  <img src="amazed.jpg" height="250px" width="300px"style:padding:50px;>
+  <img src="email.jpeg"height="50px" width="50px">
+  </div>
+</footer><hr></div>
+</html>
